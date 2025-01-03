@@ -1,0 +1,285 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+#header {
+  background-color:transparent;
+  padding: 5px;
+  color:rgb(255, 255, 255);
+  
+}
+
+#topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+ 
+}
+
+#topbar h1 {
+  margin: 0;
+}
+
+#topbar h1 a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar ul li {
+  margin-left: 20px;
+}
+
+.navbar ul li a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 5px 10px;
+  transition: background-color 0.3s;
+  
+}
+
+.navbar ul li a:hover {
+  background-color:#bb8367;
+  border-radius: 4px;
+}
+
+.about-header {
+ background: url(../Images/web\ up.webp);
+background-size: cover;
+padding: 75px 0;
+ 
+  height: 250px;
+
+}
+.cart-container {
+  position: absolute;
+  right: 15px;
+  top: 50px;
+}
+
+.cart-container img {
+  width: 40px; 
+  height: auto;
+}
+
+.about-header h1 {
+  font-size: 48px;
+  margin: 100px 250px;
+  color: #ffffff;
+
+
+}
+
+.about-header p {
+  margin: 10px 0 0;
+}
+.menu-header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  font-size: 48px;
+  color: #000000;
+}
+
+.menu-categories {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.menu-categories ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.menu-categories li {
+  margin: 0 1rem;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border: 1px solid #333;
+  border-radius: 5px;
+}
+
+.menu-categories li.active {
+  background: #bb8367;
+  color: #fff;
+}
+.menu-subcategories{
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+
+}
+.menu-subcategories ul{
+  list-style: none;
+  padding: 0;
+  display: flex;
+  
+
+}
+.menu-subcategories li{
+  margin: 0 1rem;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border: 1px solid #333;
+  border-radius: 5px;
+
+}
+.menu-subcategories li.active{
+  background-color: #bb8367;
+  color: #fff;
+}
+
+.menu-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 2rem;
+  justify-content: center;
+  background-color: #ffffff;
+}
+
+.menu-item {
+  border: 2px solid #bb8367;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+  max-width: 300px;
+  transition: transform 0.3s;
+  background-color: #f4f4f4;
+}
+
+.menu-item:hover {
+  transform: translateY(-10px);
+}
+
+.menu-item img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 1rem;
+}
+
+.item-info {
+  padding: 1rem;
+}
+
+.item-info h3 {
+  margin: 1rem 0;
+}
+
+.item-info p {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.item-info .price {
+  display: block;
+  margin: 1rem 0;
+  font-size: 1.2rem;
+  color: #bb8367;
+}
+
+
+
+footer {
+  background:url(../Images/main\ down.jpg)fixed;
+  padding: 50px 20px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 250px;
+  margin: 20px;
+}
+
+.footer-section h3 {
+  margin-bottom: 20px;
+}
+
+.footer-section p, .footer-section a {
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
+
+.social-icons {
+  display: flex;
+  margin-top: 20px;
+  gap:20px;
+}
+
+.social-icons a {
+  margin-right: 10px;
+}
+
+.social-icons img {
+  width: 30px;
+  height: 30px;
+}
+
+.newsletter {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.newsletter input {
+  padding: 10px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+.newsletter button {
+  padding: 10px 20px;
+  background-color: #bb8367;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.newsletter button:hover {
+  background-color:
+  #030303;
+}
+
+.footer-bottom {
+  margin-top: 30px;
+  text-align: center;
+}

@@ -1,0 +1,195 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+#header {
+  background-color:transparent;
+  padding: 5px;
+  color:rgb(255, 255, 255);
+
+}
+
+#topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+ 
+}
+
+#topbar h1 {
+  margin: 0;
+}
+
+#topbar h1 a {
+  color: #bb8367;
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar ul li {
+  margin-left: 20px;
+}
+
+.navbar ul li a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 5px 10px;
+  transition: background-color 0.3s;
+  
+}
+
+.navbar ul li a:hover {
+  background-color:#bb8367;
+  border-radius: 4px;
+}
+
+.about-header {
+ background: url(../Images/web\ up.webp);
+  background-size: cover;
+  padding: 50px 0;
+ 
+  height: 250px;
+
+}
+
+.cart-container {
+  position: absolute;
+  right: 15px;
+  top: 50px;
+}
+
+.cart-container img {
+  width: 40px; 
+  height: auto;
+}
+.about-header h1 {
+  font-size: 48px;
+  margin: 100px 250px;
+  color: #ffffff;
+
+
+}
+
+.about-header p {
+  margin: 10px 0 0;
+}
+
+#pre-order-form {
+  padding: 20px;
+}
+
+.form-container {
+  max-width: 600px;
+  margin: auto;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+.pre-order-form{
+  font-size: 20px;
+  
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #bb8367;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10PX;
+}
+
+button:hover {
+  background-color: #bb8367;
+  border-radius: 10PX;
+}
+
+#pre-order-image {
+  padding: 20px;
+  text-align: center;
+}
+
+#pre-order-image img {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.footer-section {
+  flex: 1;
+}
+
+.footer-section h3 {
+  margin-top: 0;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 10px;
+  background-color: #222;
+}
+
+.newsletter {
+  text-align: center;
+  padding: 20px;
+}
+
+.newsletter input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.newsletter button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #5cb85c;
+  color: white;
+  cursor: pointer;
+}
+
+.newsletter button:hover {
+  background-color: #4cae4c;
+}
+
+.social-icons a {
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.social-icons img {
+  width: 24px;
+  height: 24px;
+}
